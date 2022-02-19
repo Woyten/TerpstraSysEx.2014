@@ -24,7 +24,7 @@ jobs:
         run: |
           ~/JUCE/Projucer --resave TerpstraSysEx.jucer
           cd Builds/Linux
-          make
+          make CONFIG=Release
       - name: List build directory
         run: |
           cd Builds/Linux
