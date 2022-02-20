@@ -30,7 +30,12 @@ jobs:
         uses: actions/upload-artifact@v2
         with:
           name: LumatoneSetup-Windows
-          path: |
-            Builds/VisualStudio2019/x64/Release/App/LumatoneSetup.exe
-            Libraries/win64/bin/*.dll
+          path: Builds/VisualStudio2019/x64/Release/App/LumatoneSetup.exe
+          if-no-files-found: error
+      - name: Upload dynamic libraries
+        uses: actions/upload-artifact@v2
+        with:
+          name: LumatoneSetup-Windows
+          path: Libraries/win64/bin/*.dll
+          if-no-files-found: error
 
