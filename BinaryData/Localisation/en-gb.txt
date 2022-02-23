@@ -29,7 +29,7 @@ countries: ca gb au
 "Continuous Controller" = "MIDI CC"
 "KeyColour" = "Key Colour:"
 "Channel" = "Channel"
-"AutoIncrement" = "Auto-Increment"
+"AutoIncrement" = "Auto-Incrementxxx"
 "NotesPerClick" = "Notes-Per-Click"
 "ChannelsAfterNote" = "Channels, After Note #"
 "AutoIncrTooltip" = "After reaching this note, the channel is incremented and the note is reset to 0."

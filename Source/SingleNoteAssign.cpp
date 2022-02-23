@@ -108,7 +108,7 @@ SingleNoteAssign::SingleNoteAssign ()
     colourSubwindow->setBounds (120, 96, 56, 24);
 
     autoIncrementLabel.reset (new juce::Label ("autoIncrementLabel",
-                                               TRANS("Auto-Increment")));
+                                               TRANS("AutoIncrement")));
     addAndMakeVisible (autoIncrementLabel.get());
     autoIncrementLabel->setFont (juce::Font (15.00f, juce::Font::plain).withTypefaceStyle ("Regular"));
     autoIncrementLabel->setJustificationType (juce::Justification::centredLeft);
